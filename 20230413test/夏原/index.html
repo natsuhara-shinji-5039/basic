@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta chaset="UTF-8" />
+    <title>小テスト</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>メッセージを表示</h1>
+    <script>
+      for(let i = 1; i <= 6; i++) {
+        if((i % 2) == 0) {
+          document.write(i + "は偶数です</br>");
+        } else {
+          document.write(i + "は奇数です</br>");
+        }
+      }
+    </script>
+    <p></p>
+    <table>
+      <tr>
+        <td colspan="3" id="comment">何かボタンを押してください</td>
+      </tr>
+      <tr>
+        <td>
+          <button id="morning-btn" class="btn">朝</button>
+        </td>
+        <td>
+          <button id="night-btn" class="btn">夜</button>
+        </td>
+        <td>
+          <button id="calculation-btn" class="btn">計算</button>
+        </td>
+      </tr>
+    </table>
+    <script src="app.js"></script>
+  </body>
+</html>

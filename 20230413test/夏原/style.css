@@ -1,0 +1,17 @@
+h1 {
+  background-color: darkred;
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr td {
+  border:solid 1px;
+}
+
+.btn {
+  height: 40px;
+  width: 100px;
+}
